@@ -12,4 +12,6 @@ mysqli_select_db($link, $database) or die("Could not open the db 'DBname'");
  // Your time zone
 date_default_timezone_set('America/Sao_Paulo');
 
+$result = mysqli_query($link, "SELECT * FROM ".$tbPrefixe."_images where image_views > 10 ORDER BY image_id DESC LIMIT 20"); 
+$find = 0;
 ?>
