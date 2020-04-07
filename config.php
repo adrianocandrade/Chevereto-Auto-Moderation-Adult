@@ -1,6 +1,6 @@
 <?php 
 //TB PREFIXE
-$tbPrefixe = 'bd24';
+$tbPrefixe = 'bd24_';
 
 // DB ACESS
 $hostname = "localhost";
