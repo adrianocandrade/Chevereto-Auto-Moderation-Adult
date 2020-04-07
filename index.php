@@ -1,9 +1,6 @@
 <?php
     include('./config.php');
     include('./dbconnectfile.php');
-
-    $result = mysqli_query($link, "SELECT * FROM im24_images where image_views > 10 ORDER BY image_id DESC LIMIT 20"); 
-    $find = 0;
 ?>
 <!DOCTYPE html>
 <html>
