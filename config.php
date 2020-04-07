@@ -9,7 +9,7 @@ $username = "name_user";
 $password = "password_user";
 
 //API moderatecontent
-$apiKey = "864d4f8b1bfc56a979d2dc886cbea8aa";
+$apiKey = "this-key";
 
 //Current date and time
 $time=date('Y-m-d H:i:s');
@@ -17,8 +17,8 @@ $time=date('Y-m-d H:i:s');
 // You should set your time interval for which content check
 $ptime=date('Y-m-d H:i:s',strtotime('-5 minute')); 
 
-$domainStorage = 'https://ap.imagensbrasil.org/';
-$domain = 'https://imagensbrasil.org/';
+$domainStorage = 'https://domain.com/';
+$domain = 'https://domain.com/';
 
 //Variaveis de template
 $imageid = "";
