@@ -88,12 +88,12 @@
                             }
 
                 ?>
-                <div class="col-3 ml-2">
+                <div class="col-3 mb-2">
                 <div class="card">
                     <img src="<? echo $imgmd ?>" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Details Image</h5>
-                        <ul class="list-group ml-2">
+                        <ul class="list-group mm-2">
                             <li class="list-group-item"><strong>Ranting: </strong> <? echo  $rating ?></li>
                             <li class="list-group-item"><strong>Size: </strong> <? echo  $asize ?></li>
                             <li class="list-group-item"><strong>Image Date: </strong> <? echo  $imagedate ?></li>
