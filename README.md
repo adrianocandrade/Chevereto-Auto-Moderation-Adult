@@ -1,6 +1,8 @@
 # Chevereto-Auto-Moderation-Adult
 Moderation Auto detect Adult Content
 
+![image.png](https://ap.imagensbrasil.org/images/2020/04/07/image.png)
+
 Script developed to solve problems of adult images being sent as normal images.
 
 Script created by the chevereto community
