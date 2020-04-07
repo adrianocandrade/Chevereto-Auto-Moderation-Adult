@@ -95,13 +95,13 @@
                 <div class="card">
                     <img src="<? echo $imgmd ?>" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Details Images</h5>
-                        <ul>
-                            <li><strong>Ranting: </strong> <? echo  $rating ?></li>
-                            <li><strong>Size: </strong> <? echo  $asize ?></li>
-                            <li><strong>Image Date: </strong> <? echo  $imagedate ?></li>
-                            <li><strong>IP: </strong> <a href="<? echo $ipurl ?>" target="_blank"><? echo $ip ?></a></li>
-                            <li><strong>Views: </strong> <? echo $imageview ?></li>
+                        <h5 class="card-title">Details Image</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>Ranting: </strong> <? echo  $rating ?></li>
+                            <li class="list-group-item"><strong>Size: </strong> <? echo  $asize ?></li>
+                            <li class="list-group-item"><strong>Image Date: </strong> <? echo  $imagedate ?></li>
+                            <li class="list-group-item"><strong>IP: </strong> <a href="<? echo $ipurl ?>" target="_blank"><? echo $ip ?></a></li>
+                            <li class="list-group-item"><strong>Views: </strong> <? echo $imageview ?></li>
                         </ul>
                         <a href="<? echo $search ?>" target="_blank" class="btn btn-primary">Search Image</a>
                     </div>
